@@ -1,8 +1,45 @@
-h1 {
-  color: black;
-  font-family: 'Playfair Display', serif;
-  font-weight: bold;
+:root {
+  --primary-color: #9672FB;
+  --secondary-color:#D772FB;
+  --header-color:#F9F9F9;
+  --text-color:#292929;
+  --gradient-color: linear-gradient(180deg, rgb(150, 114, 251) 0%, rgb(215, 114, 251) 100%);
 }
 /*font-family: 'Playfair Display',serif;
 font-family: 'Poppins', sans-serif;
+*/
+body {
+  font-family: 'Poppins',sans-serif;
+}
+
+h1 {
+  color: var(--text-color);
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 70px;
+}
+
+p {
+  color: var(--text-color);
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.btn-branding {
+  background: var(--gradient-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+}
+
+.btn-branding:hover {
+  color: white;
+}
+
+.hero {
+  background: var(--header-color);
+  padding: 160px 30px;
+}
 
