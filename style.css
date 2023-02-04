@@ -41,6 +41,10 @@ h2 {
   line-height: 30px;
 }
 
+.hero-text-part {
+  color: var(--primary-color);
+}
+
 .btn-branding {
   background: var(--gradient-color);
   font-size: 18px;
