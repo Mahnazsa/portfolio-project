@@ -59,6 +59,11 @@ p {
   line-height: 30px;
 }
 
+p .built-with {
+  font-size: 14px;
+  font-weight: bold;
+}
+
 .project-description {
   padding: 33px 60px;
 }
