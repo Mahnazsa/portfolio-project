@@ -30,6 +30,10 @@ h2 {
   padding: 140px 30px;
 }
 
+.hero-container {
+  margin: 90px;
+}
+
 .hero-img {
   width: 100%;
 }
@@ -45,6 +49,25 @@ h2 {
   color: var(--primary-color);
 }
 
+.about-hero h1 {
+color: var(--text-color);
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 70px;
+}
+
+.about-hero {
+  padding: 200px 40px;
+}
+
+.about-hero p {
+  line-height: 40px;
+}
+
+.services {
+  padding: 30px 40px;
+}
 .btn-branding {
   background: var(--gradient-color);
   font-size: 18px;
@@ -71,6 +94,15 @@ p .built-with {
 .project-description {
   padding: 33px 60px;
 }
+
+.hero-about-salutation {
+  font-size: 14px;
+}
+
+
+
+
+
 
 @media (max-width:900px) {
   .hero h1 {
@@ -101,7 +133,9 @@ p .built-with {
     margin-top: 0;
   }
 
-
-
+  .about-hero {
+    text-align: center;
+    padding: 0;
+  }
   
 }
