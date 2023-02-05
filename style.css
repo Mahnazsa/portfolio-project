@@ -27,12 +27,9 @@ h2 {
 
 .hero {
   background: var(--header-color);
-  padding: 140px 30px;
+  padding: 140px 40px;
 }
 
-.hero-container {
-  margin: 90px;
-}
 
 .hero-img {
   width: 100%;
@@ -47,6 +44,9 @@ h2 {
 
 .hero-text-part {
   color: var(--primary-color);
+}
+.content {
+  padding: 20px 40px;
 }
 
 .about-hero h1 {
