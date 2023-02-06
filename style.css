@@ -4,6 +4,7 @@
   --header-color:#F9F9F9;
   --text-color:#292929;
   --gradient-color: linear-gradient(180deg, rgb(150, 114, 251) 0%, rgb(215, 114, 251) 100%);
+  --box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;;
 }
 /*font-family: 'Playfair Display',serif;
 font-family: 'Poppins', sans-serif;
@@ -79,8 +80,13 @@ h2 {
       font-weight: bold;
       font-size: 40px;
       line-height: 70px;
+      margin-bottom: 60px;
 }
 
+.work-img:hover {
+  cursor: pointer;
+  box-shadow: var(--box-shadow);
+}
 
 .btn-branding {
   background: var(--gradient-color);
