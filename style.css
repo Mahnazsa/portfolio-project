@@ -116,6 +116,19 @@ h2 {
   color: white;
 }
 
+.btn-contact {
+  background: var(--gradient-color);
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 30px;
+}
+
+.btn-contact:hover {
+    color: white;
+}
+
 p {
   font-size: 16px;
   line-height: 30px;
@@ -134,7 +147,24 @@ p .built-with {
   font-size: 14px;
 }
 
+.icons {
+  display: flex;
+  gap:30px;
+  color: var(--text-color);
+}
 
+a:link {
+  color: var(--primary-color);
+}
+
+a:visited {
+  color: #9672FB;
+}
+
+a:hover {
+  color: #D772FB;
+
+}
 
 
 
