@@ -13,6 +13,9 @@ font-family: 'Poppins', sans-serif;
 .active {
   color: var(--primary-color) !important;
 }
+.navbar {
+  padding: 10px 40px;
+}
 
 body {
   font-family: 'Poppins',sans-serif;
