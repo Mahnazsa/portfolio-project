@@ -10,6 +10,10 @@
 /*font-family: 'Playfair Display',serif;
 font-family: 'Poppins', sans-serif;
 */
+.active {
+  color: var(--primary-color) !important;
+}
+
 body {
   font-family: 'Poppins',sans-serif;
   color: var(--text-color);
@@ -152,20 +156,6 @@ p .built-with {
   gap:30px;
   color: var(--text-color);
 }
-
-a:link {
-  color: var(--primary-color);
-}
-
-a:visited {
-  color: #9672FB;
-}
-
-a:hover {
-  color: #D772FB;
-
-}
-
 
 
 
