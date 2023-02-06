@@ -69,17 +69,18 @@ h2 {
   padding: 30px 40px;
 }
 
-.work-hero {
+.work {
   padding: 140px 40px;
 }
 
-.work-hero h1 {
+.work h1 {
       color: var(--text-color);
       font-family: 'Poppins', sans-serif;
       font-weight: bold;
       font-size: 40px;
       line-height: 70px;
 }
+
 
 .btn-branding {
   background: var(--gradient-color);
