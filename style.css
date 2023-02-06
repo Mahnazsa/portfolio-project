@@ -1,6 +1,7 @@
 :root {
   --primary-color: #9672FB;
   --secondary-color:#D772FB;
+  --tertiary-color: #F9F7FE;
   --header-color:#F9F9F9;
   --text-color:#292929;
   --gradient-color: linear-gradient(180deg, rgb(150, 114, 251) 0%, rgb(215, 114, 251) 100%);
@@ -59,7 +60,7 @@ h2 {
 }
 
 .about-hero {
-  padding: 200px 40px;
+  padding: 220px 40px;
 }
 
 .about-hero p {
@@ -67,7 +68,8 @@ h2 {
 }
 
 .services {
-  padding: 30px 40px;
+  padding: 40px 40px;
+  background: var(--tertiary-color)
 }
 
 .work {
@@ -86,6 +88,19 @@ h2 {
 .work-img:hover {
   cursor: pointer;
   box-shadow: var(--box-shadow);
+}
+
+.contact {
+  padding: 140px 40px;
+}
+
+.contact h1 {
+  color: var(--text-color);
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 70px;
+  margin-bottom: 60px;
 }
 
 .btn-branding {
