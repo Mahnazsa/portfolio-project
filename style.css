@@ -110,6 +110,14 @@ h2 {
   margin-bottom: 60px;
 }
 
+.icons a {
+  color: var(--primary-color);
+}
+
+.icons a:hover {
+  color: var(--secondary-color);
+}
+
 .btn-branding {
   background: var(--gradient-color);
   font-size: 18px;
